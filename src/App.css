@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+}
+
+.count {
+  font-size: 48px;
+  color: #333;
+  margin: 0 20px;
+}
+
+.increment,
+.decrement {
+  padding: 10px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.increment:hover,
+.decrement:hover {
+  background-color: #555;
+}
